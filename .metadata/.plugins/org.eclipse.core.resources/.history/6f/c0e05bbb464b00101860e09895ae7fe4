@@ -1,0 +1,5 @@
+package com.suresh.employee_service.service;
+
+public class EmployeeService {
+	
+}

@@ -1,0 +1,10 @@
+package com.suresh.employee_service.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.suresh.employee_service.entity.Employee;
+
+@Repository
+public interface employeeRepository extends JpaRepository<Employee, Long>{
+
+}

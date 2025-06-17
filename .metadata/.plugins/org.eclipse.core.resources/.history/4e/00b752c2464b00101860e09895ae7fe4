@@ -1,0 +1,10 @@
+package com.suresh.employee_service.service;
+
+public class EmployeeService {
+
+	public String getEmployee(Long empId) {
+		// TODO Auto-generated method stub
+		return ";
+	}
+	
+}

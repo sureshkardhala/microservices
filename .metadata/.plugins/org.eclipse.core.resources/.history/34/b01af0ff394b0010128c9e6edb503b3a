@@ -1,0 +1,13 @@
+package com.suresh.employee_service.entity;
+
+import jakarta.persistence.Entity;
+
+import jakarta.persistence.Table;
+import jakarta.persistence.Id;
+@Entity
+@Table(name="Employees")
+public class Employee {
+	@Id
+	private Integer Id;
+	
+}

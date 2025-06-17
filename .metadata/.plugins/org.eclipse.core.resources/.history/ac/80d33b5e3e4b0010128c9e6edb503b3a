@@ -1,0 +1,5 @@
+package com.suresh.employee_service.repository;
+
+public class EmployeeRepository {
+
+}

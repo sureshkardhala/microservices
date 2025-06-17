@@ -1,0 +1,23 @@
+package com.suresh.employee_service.service;
+
+import com.suresh.employee_service.entity.Employee;
+import com.suresh.employee_service.repository.EmployeeRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class EmployeeService {
+	@Autowired
+	private EmployeeRepository employeeRepository;
+	
+	public String getEmployee(Long empId) {
+		return employeeRepository.get
+	}
+
+	public String addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return "Hello : "+ employee.toString();
+	}
+	
+}

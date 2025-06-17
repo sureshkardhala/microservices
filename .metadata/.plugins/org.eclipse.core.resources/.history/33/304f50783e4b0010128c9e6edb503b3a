@@ -1,0 +1,8 @@
+package com.suresh.employee_service.repository;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class EmployeeRepository extends JPARepository<> {
+
+}

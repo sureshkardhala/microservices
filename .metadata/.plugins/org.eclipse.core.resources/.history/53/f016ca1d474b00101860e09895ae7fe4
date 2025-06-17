@@ -1,0 +1,17 @@
+package com.suresh.employee_service.service;
+
+import com.suresh.employee_service.entity.Employee;
+
+public class EmployeeService {
+
+	public String getEmployee(Long empId) {
+		// TODO Auto-generated method stub
+		return "Employee : "+ empId;
+	}
+
+	public String addEmployee(Employee employee) {
+		// TODO Auto-generated method stub
+		return "Helo;
+	}
+	
+}

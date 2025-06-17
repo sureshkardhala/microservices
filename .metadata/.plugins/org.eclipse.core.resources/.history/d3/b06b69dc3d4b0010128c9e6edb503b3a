@@ -1,0 +1,32 @@
+package com.suresh.employee_service.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.suresh.employee_service.entity.Employee;
+import com.suresh.employee_service.service.EmployeeService;
+
+@RestController
+public class EmployeeController {
+	@Autowired
+	private EmployeeService employeeService;
+	@GetMapping("/")
+	public String employeeHome() {
+		return "Welcome to suresh microservices";
+	}
+	
+	@GetMapping("/employee/{empId}")
+	public String getEmployeeByEmpId(@PathVariable Long empId) {
+		return "Get by Employee ID:" + empId;
+	}
+	
+	@PostMapping("/add-employee")
+	public String addEmployee(@RequestBody Employee employee) {
+		
+		return employeeSer
+	}
+}
