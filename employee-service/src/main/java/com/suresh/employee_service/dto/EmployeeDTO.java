@@ -6,6 +6,7 @@ public class EmployeeDTO {
     public String employeeName;
     public String employeeDepartment;
     public Long employeeSalary;
+    public AddressDTO addressDTO;
 
     public AddressDTO getAddressDTO() {
         return addressDTO;
@@ -15,7 +16,7 @@ public class EmployeeDTO {
         this.addressDTO = addressDTO;
     }
 
-    public AddressDTO addressDTO;
+
 
     public EmployeeDTO() {
     }

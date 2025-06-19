@@ -20,4 +20,9 @@ public class AddressService {
         Address address = addressRepository.findById(id).get();
         return  modelMapper.map(address, AddressDTO.class);
     }
+
+    public AddressDTO getAddressByEmployeeId(Long employeeId) {
+        Address address = addressRepository.findByEmployeeId(employeeId);
+        return  modelMapper.map(address, AddressDTO.class);
+    }
 }
