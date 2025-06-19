@@ -1,5 +1,6 @@
 package com.suresh.employee_service.controller;
 
+import com.suresh.employee_service.dto.EmployeeDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -24,9 +25,9 @@ public class EmployeeController {
 	}
 	
 	@GetMapping("/employee/{empId}")
-	public ResponseEntity<Employee> getEmployeeByEmpId(@PathVariable Long empId) {
-		Employee emp = employeeService.getEmployee(empId);
-		return ResponseEntity.ok().body(emp);
+	public ResponseEntity<EmployeeDTO> getEmployeeByEmpId(@PathVariable Long empId) {
+		EmployeeDTO employeeDTO = employeeService.getEmployee(empId);
+		return ResponseEntity.ok().body(employeeDTO);
 	}
 	
 	@PostMapping("/add-employee")

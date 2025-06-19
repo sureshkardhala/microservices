@@ -17,7 +17,6 @@ public class AddressService {
 
 
     public AddressDTO getAddressById(Long id) {
-
         Address address = addressRepository.findById(id).get();
         return  modelMapper.map(address, AddressDTO.class);
     }

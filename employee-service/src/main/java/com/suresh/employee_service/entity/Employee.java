@@ -74,10 +74,4 @@ public class Employee {
 	public void setEmployeeSalary(Long employeeSalary) {
 		this.employeeSalary = employeeSalary;
 	}
-
-
-
-
-
-
 }

@@ -1,4 +1,4 @@
-package com.suresh.address_service.dto;
+package com.suresh.employee_service.dto;
 
 public class AddressDTO {
     private Long addressId;
@@ -38,3 +38,4 @@ public class AddressDTO {
         this.addressPinCode = addressPinCode;
     }
 }
+
