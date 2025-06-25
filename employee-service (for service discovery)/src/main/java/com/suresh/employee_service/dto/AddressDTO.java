@@ -14,6 +14,15 @@ public class AddressDTO {
     public AddressDTO() {
     }
 
+    @Override
+    public String toString() {
+        return "AddressDTO{" +
+                "addressId=" + addressId +
+                ", addressCity='" + addressCity + '\'' +
+                ", addressPinCode=" + addressPinCode +
+                '}';
+    }
+
     public Long getAddressId() {
         return addressId;
     }
