@@ -1,7 +1,0 @@
-package com.suresh.employee_service;
-
-public class EmployeeServiceApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(EmployeeServiceApplication.class, args);
-    }
-}

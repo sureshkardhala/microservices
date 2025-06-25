@@ -1,5 +1,0 @@
-package com.suresh.employee_service.repository;
-
-public interface employeeRepository extends JpaRepository{
-
-}
